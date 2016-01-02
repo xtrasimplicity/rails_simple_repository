@@ -7,7 +7,7 @@ class UserRepository < Repository
   # All other methods are inherited from the Repository class. #
   
   # Example of an override
-  def find(id)
+  def example_override(id)
     # code goes here
   end
 end
