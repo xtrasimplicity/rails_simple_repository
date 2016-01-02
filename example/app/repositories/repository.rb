@@ -51,4 +51,8 @@ class Repository
     instance.errors
   end
   
+  def example_override(id)
+    # This will be overriden when instanciated from the UserRepository.
+  end
+  
 end
